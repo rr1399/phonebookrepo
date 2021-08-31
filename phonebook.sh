@@ -5,7 +5,7 @@ clear
 echo "PHONE-BOOK-APPLICATION"
 echo "1.Add New Name"
 echo "2.Search By Name"
-echo "3.List of contacts"
+echo "3.List of contacts available"
 echo "4.Delete contact"
 echo "5.Delete Phonebook"
 echo "6.EXIT"
@@ -33,7 +33,7 @@ case $ent_no in
         5)echo "Delete PhoneBook"
           rm -r phonebook.log;;
         6)break;;
-        *)echo"Enter options from 1 to 6, Please";;
+        *)echo"Enter options from 1 to 6, ";;
 esac;
 read -p "Enter to go back to MENU or 6 to Exit " quit
 if [ $quit -eq 6 ]
