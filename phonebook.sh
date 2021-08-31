@@ -13,13 +13,13 @@ read -p "Enter Your Choice" ent_no
 clear
 case $ent_no in
         1)echo"ADD new Contact"
-          read -p "enter the name:" name
-          read -p "enter the number:" num
+          read -p "Enter the name:" name
+          read -p "Enter the number:" num
           echo "$name : $num" >> phonebook.log;;
         2)echo"Search Contacts"
           read -p "Enter the name to be searched:" search_name
           grep -i $search_name phonebook.log;;
-        3)echo"List PhoneBook:"
+        3)echo"List Of Contacts:"
           if [ -s phonebook.log ]
           then
           cat phonebook.log
