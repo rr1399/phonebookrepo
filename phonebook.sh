@@ -2,7 +2,7 @@
 while :
 do
 clear
-echo "PHONE-BOOK-HACKER MAIN2 V3.0"
+echo "PHONE-BOOK-HACKER MAIN2 V5.0":w
 echo "1.Add New Name"
 echo "2.Search By Name"
 echo "3.List of contacts available"
